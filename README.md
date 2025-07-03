@@ -1,6 +1,6 @@
 Architecture
 =========
-![1_7_BCJFzekmPXmJQVRdDgwg](https://github.com/user-attachments/assets/f9ac7351-7472-4ea7-89ae-ab69868457a7)
+![17514803184171721417473326228621](https://github.com/user-attachments/assets/5eec279a-eaca-455c-a056-3fca3d46483e)
 *************
 *************
 
