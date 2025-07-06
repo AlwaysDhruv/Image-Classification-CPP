@@ -4,7 +4,7 @@ Architecture
 *************
 *************
 
-Preprocessing 🔗 https://github.com/AlwaysDhruv/Image_Classification/blob/main/preprocess.h
+Preprocessing 🔗 https://github.com/AlwaysDhruv/Image-Classification-CPP/blob/main/source%2FPreprocessing%2Fpreprocess.h
 =========
 First of all preprocessing are programme with two multiple languages but not have connected together C++ and Python. C++ are work for preprocessing to create commad to execute and 
 create pixels forders and in that given dataset have multiple folders for multiple objects so same to same in C++ And Python also C++ create commad with dataset path and python will 
