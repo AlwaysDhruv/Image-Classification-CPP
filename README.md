@@ -362,7 +362,7 @@ Max Pooling 30x30 With Flatten 900 :-
 **************************
 **************************
 
-Weights Biases For Fully Connected Layer 🔗 https://github.com/AlwaysDhruv/Image_Classification/blob/main/Kernal.h
+Weights Biases For Fully Connected Layer 🔗 https://github.com/AlwaysDhruv/Image-Classification-CPP/blob/main/source/WeigthsBiases/Kernal.h
 ==============
 Now The weigths and bias are genrated for fully connected layer means dence layer. Here are the flatten value gonna be predict by using linear algebra. But First we need to weigths and bias values.
 
