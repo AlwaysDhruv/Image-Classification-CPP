@@ -58,7 +58,7 @@ Here you can see the 2x2 matrix are there and why it's 2x2 or how it's develop? 
 **************************
 **************************
 
-Weights Biases For Convolutional Layer 🔗 https://github.com/AlwaysDhruv/Image-Classification-CPP/blob/main/source/WeightsBiases/Kernal.h
+Weights Biases For Convolutional Layer 🔗 https://github.com/AlwaysDhruv/Image-Classification-CPP/blob/main/source/WeigthsBiases/Kernal.h
 ==============
 Now will talk about weigths and biases whet is this? This one type value are suitable for predict the given input after training and so optimization using gradients decents method.
 
