@@ -84,7 +84,7 @@ Source Code :-
 **************************
 **************************
 
-Convoluationl Operation 🔗 https://github.com/AlwaysDhruv/Image_Classification/blob/main/convolutional.h
+Convoluationl Operation 🔗 https://github.com/AlwaysDhruv/Image-Classification-CPP/blob/main/source/Convolution_Layer/convolutional.h
 ==============
 
 Now the topic are came out Convolluationl are working for extract the features from images using filters.
