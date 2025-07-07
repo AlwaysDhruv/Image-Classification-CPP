@@ -449,7 +449,7 @@ The Model class of predict mothod will generate index number after prediction us
 **************************
 **************************
 
-Gradients Method 🔗 https://github.com/AlwaysDhruv/Image_Classification/blob/main/backpropagation.h
+Gradients Method 🔗 https://github.com/AlwaysDhruv/Image-Classification-CPP/blob/main/source/Backprogation_Layer/backpropagation.h
 ==============
 
 Formula :-
@@ -485,7 +485,7 @@ Here are four values are will generate for update the convo and fc parameters. F
 **************************
 **************************
 
-Update The Weigths and Bias 🔗 https://github.com/AlwaysDhruv/Image_Classification/blob/main/update.h
+Update The Weigths and Bias 🔗 https://github.com/AlwaysDhruv/Image-Classification-CPP/blob/main/source/Backprogation_Layer/update.h
 ==============
 
 Formula :-
