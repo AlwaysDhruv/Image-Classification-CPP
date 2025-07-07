@@ -386,7 +386,7 @@ Bias 1x2 :-
 **************************
 **************************
 
-Fully Connected Layer 🔗 https://github.com/AlwaysDhruv/Image_Classification/blob/main/Model.h
+Fully Connected Layer 🔗 https://github.com/AlwaysDhruv/Image-Classification-CPP/blob/main/source/Dence_Layer/Model.h
 ==============
 
 Neural Network :-
