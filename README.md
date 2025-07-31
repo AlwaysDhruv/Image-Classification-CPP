@@ -1,4 +1,4 @@
-Architecture
+Image Classification Architecture
 =========
 ![17514803184171721417473326228621](https://github.com/user-attachments/assets/5eec279a-eaca-455c-a056-3fca3d46483e)
 *************
