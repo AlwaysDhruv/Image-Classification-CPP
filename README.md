@@ -1,4 +1,4 @@
-# Image Classification from Scratch Using C++
+# Image Classification from Scratch Using C++ and Python
 
 A from-scratch implementation of a Convolutional Neural Network (CNN) for image classification, written in C++ with Python for preprocessing database with proper file structure.
 
