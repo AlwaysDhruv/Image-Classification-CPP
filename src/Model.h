@@ -31,12 +31,14 @@ public:
                     vector<double> temp1;
                     for (int k = 0; k < fc_weigths.size(); ++k)
                     {
-                        for (int l = 0; l < fc_weigths[0].size(); ++l) sum += fc_weigths[k][l] * data[i][j][l];
+                        for (int l = 0; l < fc_weigths[0].size(); ++l)
+                        {
+                            sum += fc_weigths[k][l] * data[i][j][l];
+                        }
                         temp.push_back(sum + fc_bias[k]);
                         sum = 0.0;
                     }
                     softmax(temp);
-                    cout << endl;                    
                     for (int k = 0; k < labels[0].size(); ++k)
                     {
                         if (labels[i][k]==1)
@@ -75,7 +77,10 @@ public:
             double sum = 0.0;
             for (int k = 0; k < fc_weigths.size(); ++k)
             {
-                for (int l = 0; l < fc_weigths[0].size(); ++l) sum += fc_weigths[k][l] * data[i][l];
+                for (int l = 0; l < fc_weigths[0].size(); ++l)
+                {
+                    sum += fc_weigths[k][l] * data[i][l];
+                }
                 temp.push_back(sum + fc_bias[k]);
                 sum = 0.0;
             }

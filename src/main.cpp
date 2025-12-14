@@ -4,10 +4,10 @@
 #include <iostream>
 #include <windows.h>
 #include <filesystem>
-#include "./Dence_Layer/Model.h"
-#include "./WeigthsBiases/kernal.h"
-#include "./Preprocessing/preprocess.h"
-#include "./Convolution_Layer/convolutional.h"
+#include "Model.h"
+#include "kernal.h"
+#include "preprocess.h"
+#include "convolutional.h"
 
 using namespace std;
 

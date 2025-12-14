@@ -24,7 +24,7 @@ public:
 	        fc_g_b.push_back(loss.back());
 	    }
 
-
+	    //Gradients in the fully‐connected layer
 	    //Weigths Gradients
 		vector<double> temp1;
 	    for (int l = 0; l < loss.size(); ++l)

@@ -73,7 +73,7 @@ public:
                                         ans.clear();
                                         ct = 0;
                                     }
-                                }
+                                }                                
                                 vector<vector<double>>main;
                                 double sum = 0.0;
                                 int cols = pixels.size() - kernal.size() + 1;
@@ -83,7 +83,12 @@ public:
                                     for (int b = 0; b < rows; ++b)
                                     {
                                         for (int i = 0; i < kernal.size(); ++i)
-                                            for (int j = 0; j < kernal[0].size(); ++j) sum += ((pixels[i + a][j + b] * kernal[i][j]) + bias[i]);
+                                        {
+                                            for (int j = 0; j < kernal[0].size(); ++j)
+                                            {
+                                                sum += ((pixels[i + a][j + b] * kernal[i][j]) + bias[i]);
+                                            }
+                                        }
                                         ans.push_back(relu(sum));
                                         sum = 0.0;
                                     }
@@ -133,7 +138,10 @@ public:
                         temp3.clear();
                         imge = 0;
                     }
-                    else cout << "File Not Found..." << endl;
+                    else
+                    {
+                     cout << "File Not Found..." << endl;
+                    }
                 }
             }
         }
