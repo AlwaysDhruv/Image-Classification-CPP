@@ -19,15 +19,15 @@ class Kernal
 			for (int j = 0; j < height * width; ++j)
 			{
 				random_device rd;
-	    		mt19937 gen(rd());
-	    		uniform_real_distribution<> dist(-limit, limit);
+	    mt19937 gen(rd());
+	    uniform_real_distribution<> dist(-limit, limit);
 				temp.push_back(round(dist(gen) * 100.0) / 100.0);
 			}
 			convo_weigth.push_back(temp);
 			random_device rd;
-    		mt19937 gen(rd());
-    		uniform_real_distribution<> dist(-limit, limit);
-    		convo_bias.push_back(round(dist(gen) * 100.0) / 100.0);
+    mt19937 gen(rd());
+    uniform_real_distribution<> dist(-limit, limit);
+    convo_bias.push_back(round(dist(gen) * 100.0) / 100.0);
 		}
 	}
 	void values(vector<vector<double>>& weight, vector<double>& bias, int input, int output)
