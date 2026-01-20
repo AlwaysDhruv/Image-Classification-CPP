@@ -67,7 +67,7 @@ int main()
                     kernal.values(fc_weigth,fc_bias,data[0][0].size(),folder_name.size());
                     model.train(data,labels,pixel,mask,fc_weigth,convo_weigth,fc_bias,convo_bias,train);
                 }
-                else cerr << "Failed to get folder path." << endl;
+                
                 CoTaskMemFree(pidl);
             }
             else cout << "No folder selected." << endl;
