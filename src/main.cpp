@@ -4,10 +4,10 @@
 #include <iostream>
 #include <windows.h>
 #include <filesystem>
-#include "Model.h"
-#include "kernal.h"
-#include "preprocess.h"
-#include "convolutional.h"
+#include "./includes/Model.h"
+#include "./includes/kernal.h"
+#include "./includes/preprocess.h"
+#include "./includes/convolutional.h"
 
 using namespace std;
 
